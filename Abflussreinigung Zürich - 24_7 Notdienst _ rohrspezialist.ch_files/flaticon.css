@@ -1,0 +1,45 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 04/09/2020 06:50
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./flaticon.eot");
+  src: url("./flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./flaticon.woff2") format("woff2"),
+       url("./flaticon.woff") format("woff"),
+       url("./flaticon.ttf") format("truetype"),
+       url("./flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+    
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-customer-service:before { content: "\f100"; }
+.flaticon-plumber:before { content: "\f101"; }
+.flaticon-pipe:before { content: "\f102"; }
+.flaticon-drainage:before { content: "\f103"; }
+.flaticon-siphon:before { content: "\f104"; }
+.flaticon-heater:before { content: "\f105"; }
+.flaticon-gloves:before { content: "\f106"; }
+.flaticon-plumbing:before { content: "\f107"; }
+.flaticon-sink:before { content: "\f108"; }
+.flaticon-hose:before { content: "\f109"; }
+.flaticon-cable:before { content: "\f10a"; }
+.flaticon-pipe-1:before { content: "\f10b"; }
